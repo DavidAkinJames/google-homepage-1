@@ -1,1 +1,1 @@
-A project from The Odin Project. Replica of google's homepage. Everything is purely aesthetic, there is no functionality to the webpage.
+This is the my first project from ODIN project. Its just a google homepage it does not function at all.
