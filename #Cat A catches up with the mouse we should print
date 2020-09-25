@@ -1,0 +1,26 @@
+ #Cat A catches up with the mouse we should print out cat a
+    #Cat B catches up with the mouse we should print out cat b
+    #If both cats reach the mouse at the same time, print Mouse C as the two cats fight and mouse escapes.
+
+    # x symbolizes the position of Cat A
+    # y symbolized the position of Cat B
+    # z symbolizes the mouse
+   
+    #cat(x)    mouse(z) cat(y)
+  distanceOfCatA = (x - z).abs
+  distanceOfCatB = (y - z).abs
+     
+#puts distanceOfCatA
+#puts distanceOfCatB
+   
+if distanceOfCatA == distanceOfCatB
+    return "Mouse C"
+end
+
+if distanceOfCatA < distanceOfCatB
+    return "Cat A"
+end
+
+if distanceOfCatA > distanceOfCatB
+    return "Cat B"
+end
